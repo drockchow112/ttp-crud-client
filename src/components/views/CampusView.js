@@ -3,7 +3,7 @@ import "./styles/CampusView.css";
 import { Link } from "react-router-dom";
 import { StudentNameListContainer } from "../containers";
 
-const CampusView = (props) => {
+const CampusView = props => {
   return (
     <>
       <img src={props.campus.imageUrl} alt={props.campus.name} />

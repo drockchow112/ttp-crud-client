@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const EditCampusFormView = (props) => {
+const EditCampusFormView = props => {
   return (
     <div>
       <form onSubmit={props.handleSubmit}>
@@ -49,7 +49,7 @@ EditCampusFormView.propTypes = {
   name: PropTypes.string.isRequired,
   address: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  imageUrl: PropTypes.string.isRequired,
+  imageUrl: PropTypes.string.isRequired
 };
 
 export default EditCampusFormView;
