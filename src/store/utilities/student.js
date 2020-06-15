@@ -4,7 +4,6 @@ import axios from "axios";
 const FETCH_STUDENT = "FETCH_STUDENT";
 
 // Action Creators
-
 const fetchStudent = student => {
   return {
     type: FETCH_STUDENT,
